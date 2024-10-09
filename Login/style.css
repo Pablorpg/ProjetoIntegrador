@@ -21,7 +21,9 @@ body{
     height: 100vh;
 }
 
-
+input{
+    padding-left: 20px;
+}
 
 .retangulo-usuario{
     width: 500px;
@@ -29,12 +31,16 @@ body{
     background-color: #22334b;
     border-radius: 20px;
     border: 0;
-    font-size: 1rem;
-    color: white;
-    text-align: center;
-    font-weight: 700;
+    font-size: 1.3rem;
+    color: #294f84;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
+::placeholder{
+    color: #294f84;
+    margin-left: 20px;
+}
 
 .retangulo-senha{
     width: 500px;
@@ -42,13 +48,11 @@ body{
     background-color: #22334b;
     border-radius: 20px;
     border: 0;
+    font-weight: 600;
     color: white;
-    text-align: center;
-}
-.senha-container {
-    position: relative;
-    display: flex;
-    align-items: center;
+    font-size: 1.3rem;
+    color: #294f84;
+    margin-bottom: 40px;
 }
 
 
@@ -65,30 +69,6 @@ body{
     font-weight: 550;
     cursor: pointer;
     margin-bottom: 30px;
-}
-
-.usuario{
-    margin-left: 20px;
-    color: #294f84;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 900;
-    margin: 0;
-    position: relative;
-    bottom: 56px;
-    right:190px;
-}
-
-
-
-.senha{
-    margin-left: 20px;
-    color: #294f84;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 900;
-    position: relative;
-    margin: 0;
-    bottom: 56px;
-    right:190px;
 }
 
 .esq-senha{
